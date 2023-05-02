@@ -7,6 +7,8 @@
 > * [Setting up a compatible minecraft server](https://github.com/Capstone-Class-Minecraft-Internet/Setup#setting-up-a-compatible-minecraft-server)
 > * [Setting up a discord to minecraft plugin](https://github.com/Capstone-Class-Minecraft-Internet/Setup#setting-up-a-discord-to-minecraft-plugin)
 > * [Using the minecraft Internet](https://github.com/Capstone-Class-Minecraft-Internet/Setup#using-the-minecraft-internet)
+> * [Using the minecraft website](https://github.com/Capstone-Class-Minecraft-Internet/Setup#using-the-minecraft-website)
+
 
 # Setting up the minecraft Internet
 _____
@@ -21,6 +23,18 @@ _____
 
 # Using the minecraft Internet
 _____
+
+# Using the minecraft website
+_____
+Sign in or create an account at https://jiandong.wang/NBT2cmds/
+
+Create a new username by choosing a username and pressing create. A username must be at least 7 characters long with no special characters. 
+
+Press the choose file button and select your Mindcraft build NBT file. 
+
+Your build path will be updated automatically under the builds available section.
+![Image goes here](https://firebasestorage.googleapis.com/v0/b/first-project-df435.appspot.com/o/Screen%20Shot%202023-05-02%20at%203.04.55%20PM.png?alt=media&token=9472a286-0e7f-40d9-8dfc-3f286db47a10)
+
 
 # Who We Are
 To learn more about this project and how we started, check out [Who We Are](https://capstone-class-minecraft-internet.github.io/Who-We-Are/).
