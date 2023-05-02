@@ -2,11 +2,11 @@
 
 # Index
 **Minecraft Internet Overview**
-> * [Setting up the minecraft Internet](https://github.com/Capstone-Class-Minecraft-Internet/Setup#Setting-up-the-minecraft-Internet)
-> * [Setting up a discord server](https://github.com/Capstone-Class-Minecraft-Internet/Setup#Setting-up-a-discord-server)
-> * [Setting up a compatible minecraft server](https://github.com/Capstone-Class-Minecraft-Internet/Setup#Setting-up-a-compatible-minecraft-server)
-> * [Setting up a discord to minecraft plugin](https://github.com/Capstone-Class-Minecraft-Internet/Setup#Setting-up-a-discord-to-minecraft-plugin)
-> * [Using the minecraft Internet](https://github.com/Capstone-Class-Minecraft-Internet/Setup#Using-the-minecraft-Internet)
+> * [Setting up the minecraft Internet](https://github.com/Capstone-Class-Minecraft-Internet/Setup#setting-up-the-minecraft-internet)
+> * [Setting up a discord server](https://github.com/Capstone-Class-Minecraft-Internet/Setup#setting-up-a-discord-server)
+> * [Setting up a compatible minecraft server](https://github.com/Capstone-Class-Minecraft-Internet/Setup#setting-up-a-compatible-minecraft-server)
+> * [Setting up a discord to minecraft plugin](https://github.com/Capstone-Class-Minecraft-Internet/Setup#setting-up-a-discord-to-minecraft-plugin)
+> * [Using the minecraft Internet](https://github.com/Capstone-Class-Minecraft-Internet/Setup#using-the-minecraft-internet)
 
 # Setting up the minecraft Internet
 _____
