@@ -33,8 +33,7 @@ Create a new username by choosing a username and pressing create. A username mus
 Press the choose file button and select your Mindcraft build NBT file. 
 
 Your build path will be updated automatically under the builds available section.
-![Image goes here](https://firebasestorage.googleapis.com/v0/b/first-project-df435.appspot.com/o/Screen%20Shot%202023-05-02%20at%203.04.55%20PM.png?alt=media&token=9472a286-0e7f-40d9-8dfc-3f286db47a10)
-
+![Image goes here](https://firebasestorage.googleapis.com/v0/b/first-project-df435.appspot.com/o/website.png?alt=media&token=8a0201c7-73e6-4acb-9903-c3e474967415)
 
 # Who We Are
 To learn more about this project and how we started, check out [Who We Are](https://capstone-class-minecraft-internet.github.io/Who-We-Are/).
