@@ -19,6 +19,31 @@ In addition to a discord server, two discord bots are required to allow minecraf
 TODO: Add information about bot setup, and what information is required for bot setup.
 _____
 # Setting up the Minecraft internet automatically
+The minecraft internet system can be setup in a few easy commands using docker to create a new world, and get your bots up and runnning!
+1. [Install docker](https://docs.docker.com/get-docker/)
+2. [Download](https://github.com/Capstone-Class-Minecraft-Internet/mc-docker) the premade Docker file
+3. Extract the mc-docker files, and navigate to the exctracted directory through the terminal
+    1. The docker user interface (docker desktop) can also be used to do this
+4. Gather the following pieces of information: 
+    #### Discord channel arguments
+    1. clietID
+    2. guildID
+    3. token
+
+    #### Channel Id arguments (You must use two different channels)
+    1. Channel id #1 (known as botChannelID)
+    2. Channel id #2 (known as botRelayChannelID)
+    
+    #### Firebase Credentials
+    1. apiKey
+    2. authDomain
+    3. databaseURL
+    4. projectID
+    5. storageBucket
+    6. messagingSenderId
+    7. appId
+5. Run the docker script with the following command: 
+
 
 _____
 # Setting up a compatible minecraft server
