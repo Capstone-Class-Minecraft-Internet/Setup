@@ -42,9 +42,9 @@ The minecraft internet system can be setup in a few easy commands using docker t
     5. storageBucket
     6. messagingSenderId
     7. appId
-5. Run the docker script with the following command: 
-
-
+5. Run the docker script with the following command, adding the data collected in the previous step where necessary:  ```UID=$(id -u) GID=$(id -g) clientID=$() guildID=$() token=$() botChannelId=$() botRelayChannelId=$() apiKey=$() authDomain=$() databaseURL=$() projectId=$() storageBucket=$() messagingSenderId=$() appId=$() docker-compose up -d```
+6. Run the following docker command to accept the minecraft EULA, and officially start the minecraft server ```GET COMMAND FROM JD```
+7. Congrats, you now have a working minecraft internet! Follow the guide [here](Put guide link here) to get started with sharing builds.
 _____
 # Setting up a compatible minecraft server
 _____
