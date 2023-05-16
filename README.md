@@ -4,7 +4,7 @@
 **Minecraft Internet Overview**
 > * [Setting up a discord server (Required)](https://github.com/Capstone-Class-Minecraft-Internet/Setup#setting-up-a-discord-server)
 > * [Setting up the minecraft Internet Automatically (Recommended)](https://github.com/Capstone-Class-Minecraft-Internet/Setup#setting-up-the-minecraft-internet-automatically)
-### The stps below outline how to manually setup the minecraft internet, and are only intended to be used for educational and troubleshooting purposes.
+### The setps below outline how to manually setup the minecraft internet, and are only intended to be used for educational and troubleshooting purposes.
 > * [Setting up the minecraft Internet](https://github.com/Capstone-Class-Minecraft-Internet/Setup#setting-up-the-minecraft-internet)
 > * [Setting up a compatible minecraft server](https://github.com/Capstone-Class-Minecraft-Internet/Setup#setting-up-a-compatible-minecraft-server)
 > * [Setting up a discord to minecraft plugin](https://github.com/Capstone-Class-Minecraft-Internet/Setup#setting-up-a-discord-to-minecraft-plugin)
