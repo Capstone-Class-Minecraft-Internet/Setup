@@ -16,7 +16,7 @@ A new or existing discord server can be used to run the minecraft-to-internet sy
 
 In addition to a discord server, two discord bots are required to allow minecraft to fully access the internet. The first discord bot is required to connect the minecraft server to discord, and the second bot is used to connect discord to the internet.
 
-Setup of these bots is discussed in a section below.
+TODO: Add information about bot setup, and what information is required for bot setup.
 _____
 # Setting up the Minecraft internet automatically
 
