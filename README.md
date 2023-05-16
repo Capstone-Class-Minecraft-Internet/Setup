@@ -58,19 +58,21 @@ This section should work with any discord to minecraft link, but for the sake of
 2. [Install](https://essentialsx.net/downloads.html) the essentialsxDiscord extension plugin. 
 3. [Follow](https://essentialsx.net/wiki/Discord-Tutorial.html) the essentialsXDiscord setup guide, using the bot created in the first step.
 4. Configure the essentialsX discord plugin to use the proper discord channels. 
-        1. Gather the following information
-                1. guild (server) ID
-                2. Channel ID #1 (Admin channel)
-                3. Channel ID #2 (Relay channel)
-        2. Open the config file created by the EssentialsXDiscord extension plugin, and set the required parameters to the information set above. 
-                1. Set the guild parameter to the guild (server) ID
-                2. Set the primary and staff parameters to Channel ID #1
-                3. Set the channel parameter under console section to Channel ID #2
-                4. Ensure command-relay and bot-command-relay are set to true
-                5. Ensure show-webhook-messages and show-bot-messages parameters are set to false
-        3. Test new bot configurations
-                1. When users log into or out of the server, and when messages are sent in minecraft chat, they should appear in the admin channel
-                2. A message sent in the relay channel should appear in minecraft chat, and commands typed into the relay channel should happen in game.
+    1. Gather the following information
+        1. guild (server) ID
+        2. Channel ID #1 (Admin channel)
+        3. Channel ID #2 (Relay channel)
+    2. Open the config file created by the EssentialsXDiscord extension plugin, and set the required parameters to the information set above. 
+        1. Set the guild parameter to the guild (server) ID
+        2. Set the primary and staff parameters to Channel ID #1
+        3. Set the channel parameter under console section to Channel ID #2
+        4. Ensure command-relay and bot-command-relay are set to true
+        5. Ensure show-webhook-messages and show-bot-messages parameters are set to false
+     3. Test new bot configurations
+         1. When users log into or out of the server, and when messages are sent in minecraft chat, they should appear in the admin channel
+         2. A message sent in the relay channel should appear in minecraft chat, and commands typed into the relay channel should happen in game.
+5. Restart the minecraft server to apply changes
+
 _____
 # Setting up the minecraft Internet
 This section goes into the custom written discord bot
