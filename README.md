@@ -54,7 +54,7 @@ The minecraft internet system relies on papermc due to its support of bukkit plu
 _____
 # Setting up a discord to minecraft plugin
 This section should work with any discord to minecraft link, but for the sake of this tutorial, we will use EssentialsX discord. This plugin has an easy setup process and provides a discord to minecraft command/chat relay, which is why we went with this choice
-1. [Install]((https://essentialsx.net/downloads.html) the essentialsX plugin.
+1. [Install](https://essentialsx.net/downloads.html) the essentialsX plugin.
 2. [Install](https://essentialsx.net/downloads.html) the essentialsxDiscord extension plugin. 
 3. [Follow](https://essentialsx.net/wiki/Discord-Tutorial.html) the essentialsXDiscord setup guide, using the bot created in the first step.
 4. Configure the essentialsX discord plugin to use the proper discord channels. 
