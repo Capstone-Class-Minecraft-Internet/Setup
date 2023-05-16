@@ -75,7 +75,25 @@ This section should work with any discord to minecraft link, but for the sake of
 
 _____
 # Setting up the minecraft Internet
-This section goes into the custom written discord bot
+This section goes into how to install the second required discord bot.
+1. [Download](https://github.com/Capstone-Class-Minecraft-Internet/discord-bot-no-admin-for-docker) the discord bot from github. 
+2. Collect required discord information 
+    1. Discord bot client ID
+    2. discord guild(Server) ID
+    3. Discord token
+    4. Discord AdminChannelID
+    5. Discord RelayChannelID
+    6. Firebase apikey
+    7. Firebase authDomain
+    8. Firebase databaseURL
+    9. Firebase projectID
+    10. firebase StorageBucketID 
+    11. firebase MessageSenderID
+    12. Firebase appID
+3. [Install](https://nodejs.org/en/download) Node.js and NPM.
+4. Install discord.js using ```npm install discord.js```
+5. Run the discord bot using ```node index.js ${botChannelId} ${botRelayChannelId} ${clientId} ${guildId} ${token} ${apiKey} ${authDomain} ${databaseURL} ${projectID} ${storageBucket} ${messagingSenderId} ${appId}```, Subbing in values with the values gathered in the previous step
+6. Confirm functioning minecraft-to-discord system by typing !ping in minecraft. A ```Pong!``` response should be returned.
 _____
 # Using the minecraft Internet
 _____
