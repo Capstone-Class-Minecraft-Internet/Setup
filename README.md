@@ -96,6 +96,8 @@ This section goes into how to install the second required discord bot.
 6. Confirm functioning minecraft-to-discord system by typing !ping in minecraft. A ```Pong!``` response should be returned.
 _____
 # Using the minecraft Internet
+The minecraft internet system provides an intuitive way to pull minecraft builds from the internet using *Mostly* vanilla minecraft.
+
 _____
 # Using the minecraft website
 _____
