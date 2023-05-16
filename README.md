@@ -4,6 +4,7 @@
 **Minecraft Internet Overview**
 > * [Setting up a discord server (Required)](https://github.com/Capstone-Class-Minecraft-Internet/Setup#setting-up-a-discord-server)
 > * [Setting up the minecraft Internet Automatically (Recommended)](https://github.com/Capstone-Class-Minecraft-Internet/Setup#setting-up-the-minecraft-internet-automatically)
+### The stps below outline how to manually setup the minecraft internet, and are only intended to be used for educational and troubleshooting purposes.
 > * [Setting up the minecraft Internet](https://github.com/Capstone-Class-Minecraft-Internet/Setup#setting-up-the-minecraft-internet)
 > * [Setting up a compatible minecraft server](https://github.com/Capstone-Class-Minecraft-Internet/Setup#setting-up-a-compatible-minecraft-server)
 > * [Setting up a discord to minecraft plugin](https://github.com/Capstone-Class-Minecraft-Internet/Setup#setting-up-a-discord-to-minecraft-plugin)
@@ -47,10 +48,32 @@ The minecraft internet system can be setup in a few easy commands using docker t
 7. Congrats, you now have a working minecraft internet! Follow the guide [here](Put guide link here) to get started with sharing builds.
 _____
 # Setting up a compatible minecraft server
+The minecraft internet system relies on papermc due to its support of bukkit plugins. This system could also work with spigot servers, but this walkthrough will focus on paperMC. 
+1. [Install](https://papermc.io/downloads/paper) version 1.19 of the paperMC
+2. [Setup and run](https://docs.papermc.io/paper/getting-started) the paperMC server
 _____
 # Setting up a discord to minecraft plugin
+This section should work with any discord to minecraft link, but for the sake of this tutorial, we will use EssentialsX discord. This plugin has an easy setup process and provides a discord to minecraft command/chat relay, which is why we went with this choice
+1. [Install]((https://essentialsx.net/downloads.html) the essentialsX plugin.
+2. [Install](https://essentialsx.net/downloads.html) the essentialsxDiscord extension plugin. 
+3. [Follow](https://essentialsx.net/wiki/Discord-Tutorial.html) the essentialsXDiscord setup guide, using the bot created in the first step.
+4. Configure the essentialsX discord plugin to use the proper discord channels. 
+        1. Gather the following information
+                1. guild (server) ID
+                2. Channel ID #1 (Admin channel)
+                3. Channel ID #2 (Relay channel)
+        2. Open the config file created by the EssentialsXDiscord extension plugin, and set the required parameters to the information set above. 
+                1. Set the guild parameter to the guild (server) ID
+                2. Set the primary and staff parameters to Channel ID #1
+                3. Set the channel parameter under console section to Channel ID #2
+                4. Ensure command-relay and bot-command-relay are set to true
+                5. Ensure show-webhook-messages and show-bot-messages parameters are set to false
+        3. Test new bot configurations
+                1. When users log into or out of the server, and when messages are sent in minecraft chat, they should appear in the admin channel
+                2. A message sent in the relay channel should appear in minecraft chat, and commands typed into the relay channel should happen in game.
 _____
 # Setting up the minecraft Internet
+This section goes into the custom written discord bot
 _____
 # Using the minecraft Internet
 _____
