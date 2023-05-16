@@ -11,7 +11,7 @@
 
 
 # Setting up a discord server
-A new or existing discord server can be used to run the minecraft-to-internet system. If you would like to use a new discord server, this tutorial can be used to set up the server basics. 
+A new or existing discord server can be used to run the minecraft-to-internet system. If you would like to use a new discord server, this [tutorial](https://discord.com/blog/starting-your-first-discord-server) can be used to set up the server basics. 
 
 In addition to a discord server, two discord bots are required to allow minecraft to fully access the internet. The first discord bot is required to connect the minecraft server to discord, and the second bot is used to connect discord to the internet.
 
