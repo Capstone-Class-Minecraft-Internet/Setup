@@ -15,9 +15,28 @@
 # Setting up a discord server (Required)
 A new or existing discord server can be used to run the minecraft-to-internet system. If you would like to use a new discord server, this [tutorial](https://discord.com/blog/starting-your-first-discord-server) can be used to set up the server basics. 
 
-In addition to a discord server, two discord bots are required to allow minecraft to fully access the internet. The first discord bot is required to connect the minecraft server to discord, and the second bot is used to connect discord to the internet.
+Once a server has been created or an existing server has been chosen follow these steps to properly configure the server:
+1. Create an admin text channel
+2. Create a bot-relay text channel
+3. Make sure to note the text channel IDs for later use
 
-TODO: Add information about bot setup, and what information is required for bot setup.
+Two discord bots are required to allow minecraft to fully access the internet through our system. In this step, we will create one of these two bots through the discord develop portal
+1. Log into the discord developer portal found [here](https://discord.com/developers)
+2. Click the new application button 
+3. Navigate to the *add a bot* section of the developer portal, and click the add bot button. 
+4. Click the copy button to copy the discord bot key, and save it somewhere safe
+5. Navigate to the OAuth2 section of the discord developer portal, and give the bot the following permissions:
+    1. bot
+    2. messages.read
+    3. guilds
+    4. activities.read
+    5. activities.write
+6. Copy the link generated at the bottom of the page, and copy it into a web Browser
+7. Select the server to add the new bot to
+8. Click the add button, and the bot will be added to the new server!
+NOTE: This bot will not do anything until we tell it to later in this tutorial 
+
+
 _____
 # Setting up the Minecraft internet automatically
 The minecraft internet system can be setup in a few easy commands using docker to create a new world, and get your bots up and runnning!
