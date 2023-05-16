@@ -96,11 +96,14 @@ This section goes into how to install the second required discord bot.
 6. Confirm functioning minecraft-to-discord system by typing !ping in minecraft. A ```Pong!``` response should be returned.
 _____
 # Using the minecraft Internet
-The minecraft internet system provides an intuitive way to pull minecraft builds from the internet using *Mostly* vanilla minecraft.
+The minecraft internet system provides an intuitive way to pull minecraft builds and other programs from the internet using *Mostly* vanilla minecraft.
+### Basic Commands
+- ```!get_computer``` - Sends a book to the user which contains clickable elements to create the computer that can instantly execute programs
+- ```!get_build usernameArg buildIDArg``` - A command that takes a username and buildID arg. This command communicates with our firebase 'dns' system to retreive the build and send it to the user. This command does take some time to run, so it will send a notification to the user in game when the build or program is fully loaded. To run the fully loaded build or program, simply place a redstone block next to the orange command block from the minecraft computer build from the ```!get_computer``` command
+- ```!ping``` - A sanity check to ensure that the bot is functional
 
 _____
-# Using the minecraft website
-_____
+# Using the minecraft Build Uploader
 Sign in or create an account at https://jiandong.wang/NBT2cmds/
 
 Create a new username by choosing a username and pressing create. A username must be at least 7 characters long with no special characters. 
